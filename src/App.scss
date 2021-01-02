@@ -1,0 +1,21 @@
+@import './styles/Vars.sass';
+@import './styles/Header.scss';
+@import './styles/Home.scss';
+@import './styles/Features.scss';
+@import './styles/AboutUs.scss';
+@import './styles/Portfolio.scss';
+@import './styles/Contact.scss';
+@import './styles/ContactModal.scss';
+@import './styles/ServiceModal.scss';
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+}
+a{
+  outline: none;
+  border: none;
+  text-decoration: none;
+}

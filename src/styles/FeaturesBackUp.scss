@@ -1,0 +1,436 @@
+.features{
+    position: relative;
+    padding:90px 0;
+    .features-container{
+        max-width: 1200px;
+        margin: 0 auto;
+        background-color: white;
+        .features-hedaer{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            padding-bottom: 60px;
+            .item{
+                .item-wrapper{
+                    cursor: pointer;
+                    position: relative;
+                    h5{
+                        font-weight: 400;
+                        font-size: 15px;
+                        text-align: center;
+                        animation-delay: 0.7s;
+                        -webkit-animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	                    animation: slide-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+                    }
+                    &:hover{
+                        color: #E6AA67;
+                    }
+                    @-webkit-keyframes slide-bottom {
+                        0% {
+                          -webkit-transform: translateY(0);
+                                  transform: translateY(0);
+                        }
+                        100% {
+                          -webkit-transform: translateY(100px);
+                                  transform: translateY(100px);
+                        }
+                    }
+                    @keyframes slide-bottom {
+                        0% {
+                          -webkit-transform: translateY(-400px);
+                                  transform: translateY(-400px);
+                        }
+                        100% {
+                          -webkit-transform: translateY(0px);
+                                  transform: translateY(0px);
+                        }
+                    }
+                    .item-wrapper-masc{
+                        display: flex;
+                        justify-content: center;
+                        position: absolute;
+                        top: 0;
+                        width: 100%;
+                        height: 100%;
+                        padding: 35px 0;
+                        animation-delay: 0.5s;
+                        -webkit-animation: item-wrapper-masc 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	                    animation: item-wrapper-masc 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+                        img{
+                            width: 55px;
+                            height: 45px;
+                        }
+                    }
+                }
+                &:hover{
+                    .item-wrapper-masc{
+                        top: 50%;
+                        transition: ease-in 0.1s;
+
+                    }
+                }
+                @-webkit-keyframes item-wrapper-masc {
+                    0% {
+                      -webkit-transform: translateY(0);
+                              transform: translateY(0);
+                    }
+                    100% {
+                      -webkit-transform: translateY(-100px);
+                              transform: translateY(-100px);
+                    }
+                    }
+                    @keyframes item-wrapper-masc {
+                    0% {
+                      -webkit-transform: translateY(50px);
+                              transform: translateY(50px);
+                    }
+                    100% {
+                      -webkit-transform: translateY(0px);
+                              transform: translateY(0px);
+                    }
+                }
+            }
+        }
+        .features-content{
+            .features-content-item{
+                overflow: auto;
+                max-height: calc(100vh - 15vh);
+                padding: 15px 0;
+                .strategy{
+                    -webkit-animation: strategy 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+                    animation: strategy 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+                    h1{
+                        text-transform: uppercase;
+                        cursor: default;
+                        color: transparent;
+                        -webkit-text-stroke: 0.5px #E6AA67;
+                        font-weight: 500;
+                        font-size: 45px;
+                    }
+                    .header-strategy{
+                        h5{
+                            font-size: 25px;
+                            font-weight: 500;
+                        }
+                    }
+                    .strategy-content h5{
+                        font-size: 19px;
+                        font-weight: 400;
+                    }
+                    .strategy-content p{
+                        font-size: 16px;
+                        font-weight: 300;
+                    }
+                }
+                @-webkit-keyframes strategy {
+                    0% {
+                      -webkit-transform: translateX(0);
+                              transform: translateX(0);
+                    }
+                    100% {
+                      -webkit-transform: translateX(0px);
+                              transform: translateX(0px);
+                    }
+                }
+                @keyframes strategy {
+                    0% {
+                      -webkit-transform: translateX(-1000px);
+                              transform: translateX(-1000px);
+                    }
+                    100% {
+                      -webkit-transform: translateX(0px);
+                              transform: translateX(0px);
+                    }
+                }
+                .design-your-site-container{
+                    -webkit-animation: design-your-site-container 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	                animation: design-your-site-container 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+                    .title{
+                        h1{
+                            text-transform: uppercase;
+                            cursor: default;
+                            color: transparent;
+                            -webkit-text-stroke: 0.5px #E6AA67;
+                            font-weight: 500;
+                            font-size: 45px;
+                        }
+                    }
+                    .header-design-your-site{
+                        h5{
+                            font-size: 25px;
+                            font-weight: 500;
+                        }
+                    }
+                    .content-design-your-site h5{
+                        font-size: 19px;
+                        font-weight: 400;
+                    }
+                    .content-design-your-site p{
+                        font-size: 16px;
+                        font-weight: 300;
+                    }
+                }
+                @-webkit-keyframes design-your-site-container {
+                    0% {
+                      -webkit-transform: translateX(0);
+                              transform: translateX(0);
+                    }
+                    100% {
+                      -webkit-transform: translateX(0px);
+                              transform: translateX(0px);
+                    }
+                }
+                @keyframes design-your-site-container {
+                    0% {
+                      -webkit-transform: translateX(-1000px);
+                              transform: translateX(-1000px);
+                    }
+                    100% {
+                      -webkit-transform: translateX(0px);
+                              transform: translateX(0px);
+                    }
+                }
+                .mark-and-sell{
+                    -webkit-animation: mark-and-sell 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	                animation: mark-and-sell 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+                    .title{
+                        h1{
+                            text-transform: uppercase;
+                            cursor: default;
+                            color: transparent;
+                            -webkit-text-stroke: 0.5px #E6AA67;
+                            font-weight: 500;
+                            font-size: 45px;
+                        }
+                    }
+                    .header-mark-and-sell{
+                        h5{
+                            font-size: 25px;
+                            font-weight: 500;
+                        }
+                    }
+                    .sub-header-mark-and-sell{
+                        h5{
+                            font-size: 23px;
+                            font-weight: 400;
+                            margin: 0;
+                        }
+                        p{
+                            color: #4d5d5d;
+                            font-weight: 300;
+                        }
+                    }
+                }
+                @-webkit-keyframes mark-and-sell {
+                    0% {
+                      -webkit-transform: translateX(0);
+                              transform: translateX(0);
+                    }
+                    100% {
+                      -webkit-transform: translateX(0px);
+                              transform: translateX(0px);
+                    }
+                }
+                @keyframes mark-and-sell {
+                    0% {
+                      -webkit-transform: translateX(-1000px);
+                              transform: translateX(-1000px);
+                    }
+                    100% {
+                      -webkit-transform: translateX(0px);
+                              transform: translateX(0px);
+                    }
+                }
+                .long-term-succes{
+                    .title{
+                        h1{
+                            text-transform: uppercase;
+                            cursor: default;
+                            color: transparent;
+                            -webkit-text-stroke: 0.5px #E6AA67;
+                            font-weight: 500;
+                            font-size: 45px;
+                        }
+                    }
+                    .header-long-term-succes{
+                        h5{
+                            font-size: 25px;
+                            font-weight: 500;
+                        }
+                    }
+                    .content-long-term-succes h5{
+                        font-size: 19px;
+                        font-weight: 400;
+                    }
+                    .content-long-term-succes p{
+                        font-size: 16px;
+                        font-weight: 300;
+                    }
+                    .sub-header-long-term-succes{
+                        
+                    }
+                }
+            }
+            .features-content-item::-webkit-scrollbar {
+                width: 1px;
+            }
+            .features-content-item::-webkit-scrollbar-track {
+                box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.3);
+            }
+            .features-content-item::-webkit-scrollbar-thumb {
+                background-color: darkgrey;
+                outline: 1px solid #E6AA67;
+            }
+        }
+    }
+}
+.features-mobile{
+    .features-mobile-header{
+        h1{
+            text-transform: uppercase;
+            cursor: default;
+            color: transparent;
+            -webkit-text-stroke: 0.5px #002462;
+            font-weight: 500;
+            font-size: 45px;
+            margin: 0;
+            -webkit-animation: about-us-header 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation: about-us-header 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            padding: 15px 20px;
+            border-bottom: 1px solid #002462;
+        }
+    }
+    .features-mobile-container{
+        // border: 1px solid red;
+        padding: 0 0px;
+        overflow-x: hidden;
+        .slick-slider{
+            .slick-arrow{
+                opacity: 0;
+            }
+            .slick-list{
+                .slick-track{
+                    // box-shadow: 0 2px 8px rgba(0,0,0,.2);
+                    display: flex;
+                    flex-direction: row;
+                    overflow: hidden;
+                    position: relative;                    
+                    .slick-slide{
+                        .item{
+                            height: 100%;
+                            .item-wrapper{
+                                // padding: 0 10px;
+                                h5{
+                                    text-align: center;
+                                    font-size: 25px;
+                                    color: #002462;
+                                }
+                                .item-wrapper-masc{
+                                    text-align: center;
+                                    img{
+                                        width: 100px;
+                                    }
+                                }
+                                .item-wrapper-masc-content{
+                                    .features-content-item-mob{
+                                        padding: 0 10px;
+                                        .strategy{
+                                            padding: 0 15px;
+                                            .title{
+                                                display: none;
+                                                h1{
+
+                                                }
+                                            }
+                                            .header-strategy{
+                                                h5{
+                                                    margin: 0;
+                                                    line-height: 40px;
+                                                    padding: 25px 0;
+                                                }
+                                            }
+                                            .strategy-content{
+                                                text-align: center;
+                                                h5{
+                                                    font-size: 22px;
+                                                    margin: 0;
+                                                    font-weight: 500;
+                                                    padding: 5px 0;
+
+                                                }
+                                                p{  
+                                                    padding: 15px 0;
+                                                    // border: 1px solid red;
+                                                    margin: 0;
+
+                                                }
+                                            }
+                                        }
+                                        .design-your-site{
+                                            .design-your-site-container{
+
+                                            }
+                                            .title{
+                                                display: none;
+                                            }
+                                            .header-design-your-site{
+                                                padding: 0 15px;
+                                                h5{
+                                                    text-align: center;
+                                                    font-size: 23px;
+                                                    font-weight: 300;
+                                                    line-height: 35px;
+                                                }
+                                            }
+                                            .content-design-your-site{
+                                                p{
+                                                    text-align: center;
+                                                }
+                                            }
+
+                                        }
+                                        .mark-and-sell{
+                                            .title{display: none;}
+                                            .header-mark-and-sell{
+
+                                            }
+                                            .sub-header-mark-and-sell{
+                                                h5{
+                                                    text-align: center;
+                                                    font-size: 25px;
+                                                    line-height: 35px;
+                                                }
+                                                p{
+                                                    text-align: center;
+                                                }
+                                            }
+                                        }
+                                        .long-term-succes{
+                                            .title{display: none;}
+                                            .header-long-term-succes{
+                                                h5{
+                                                    text-align: center;
+                                                    font-size: 25px;
+                                                    line-height: 35px;
+                                                }
+                                            }
+                                            .sub-header-mark-and-sell{
+                                                h5{
+                                                    font-size: 23px;
+                                                }
+                                                p{
+                                                    text-align: center;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

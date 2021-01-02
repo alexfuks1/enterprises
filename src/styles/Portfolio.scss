@@ -1,0 +1,43 @@
+.portfolio{
+    position: relative;
+    padding:90px 0;
+    .portfolio-container{
+        max-width: 1200px;
+        margin: 0 auto;
+        .portfolio-header{
+            h1{
+                text-transform: uppercase;
+                cursor: default;
+                color: transparent;
+                -webkit-text-stroke: 1px #042463;
+                font-weight: 500;
+                font-size: 45px;
+                margin: 0;
+                
+            }
+        }
+        .portfolio-breadcrumbs{
+            padding: 15px 0;
+            a{
+                font-size: 14px;
+                cursor: pointer;
+                color: black;
+                font-weight: bold;
+            }
+        }
+    }
+}
+@media all and (max-width: 999px){
+    .portfolio{
+        position: relative;
+        padding: 15px 15px;
+        .portfolio-container{
+            max-width: 1200px;
+            margin: 0 auto;
+            h1{
+                // padding: 15px 20px;
+                // border-bottom: 1px solid #042463;
+            }
+        }
+    }
+}
